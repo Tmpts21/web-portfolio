@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous"> 
+
+    <title>Portfolio</title>
+</head>  
+<style>   
+
+    body{ 
+        font-family: 'Courier Prime', monospace; 
+        background-color :#111827 ; 
+        color : #9CA3AF;
+    }   
+    a:hover, a:visited, a:link, a:active
+        {
+            text-decoration: none;
+        } 
+        .ascii-art { 
+            font-family: monospace;
+            white-space: pre-wrap; 
+            word-break: break-all;
+        }
+</style>   
+
+<body> 
+
+        <nav class=" px-3 navbar navbar-expand-lg navbar-light "> 
+            <div class="container-fluid"> 
+                <a class="navbar-brand" aria-current="page" href="#about"  style="color : #9CA3Af" >#About</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="color : #9CA3Af"> 
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown" style="color: #9CA3AF;"> 
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#projects"  style="color : #9CA3Af" >#Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=mivatampos@tip.edu.ph" style="color : #9CA3Af " >#Contact</a>
+                    </li>
+                </ul>  
+                </div>
+            </div>
+        </nav> 
+
+    <div class="container">      
+<div style="height: 620px;"  id = 'about'>   
+    <br> <br> <br> <br> 
+        <div class="row " >     
+            <div class="ascii-art card-text">     
+
+ _   _  _    ___  _               ___
+| | | |(_)  |_ _|( ) _ __ ___    |_ _|  __ _  _ __
+| |_| || |   | | |/ | '_ ` _ \    | |  / _` || '_ \
+|  _  || |   | |    | | | | | |   | | | (_| || | | |
+|_| |_||_|  |___|   |_| |_| |_|  |___| \__,_||_| |_|  
+
+            </div>
+            <div>  
+                <p>  (/•-•)/   </p>
+                <p>  
+
+
+                    Im computer engineering student from Technological institute of the Philippines. Im an aspiring software engineer dedicated to solve and create software applications  
+                    that help and solve problems for the mankind. I also do cybersecurity researching and sometimes solve Capture the flag challenges in my spare time. 
+
+
+                </p>
+            </div>
+        </div>   
+
+</div>  
+        <br>
+
+        <div class="row" id ='projects'>   
+       
+            <h4 class="mb-4">#Recent projects</h4>
+            
+            
+            <div class="card mb-5 border border-primary " style="background-color: #111827;">
+                <div class="card-header">
+                    <a href="#" class="float-start" > # Filipino Jokes Api</a>    
+                </div>
+                <div class="card-body">
+                    <p class="card-text">An api that generates filipino jokes, Some feature includes fetching jokes based on dialect , fetching random jokes and etc. inspired by existing api's like dad jokes api and Chuck norris api </p> 
+                    <p>Tools used : </p> 
+                    <a href="https://nodejs.org/en/"  > Node Js | </a>  
+                    <a href="https://expressjs.com/"  > Express Js | </a> 
+                    <a href="https://www.heroku.com"  > Heroku  </a>   
+                    <hr> 
+                    <a href="https://filipino-jokes-api.herokuapp.com/random" class='btn btn-outline-primary float-start'> Demo🔥 </a>      
+                    <a href="https://github.com/Tmpts21/filipino_jokes_api" class='btn btn-outline-primary float-start ms-3 '>github 🔬 </a>    
+                    
+                </div>
+            </div>  
+            <div class="card mb-5 border border-primary " style="background-color: #111827;">
+                <div class="card-header">
+                    <a href="#" class="" > # How fast you type  </a>   
+                </div>
+                <div class="card-body">
+                    <p class="card-text">A typing speed test that calculates your WPM. Built with vue js frame work</p>  
+                    <p>Tools used : 
+                        </p>   
+                        <a href="https://vuejs.org/">Vue Js |</a> 
+                        <a href="https://getbootstrap.com/">Bootstrap</a> 
+
+
+                        <hr> 
+                        <a href="https://how-fast-you-type.netlify.app/" class='btn btn-outline-primary float-start'>Demo🔥</a>
+                        <a href="https://github.com/Tmpts21/typing-speed-test-vue-js-" class='btn btn-outline-primary float-start ms-3 '>github 🔬 </a>    
+
+                </div>
+            </div>
+
+            <div class="card mb-5 border border-primary " style="background-color: #111827;">
+                <div class="card-header">
+                    <a href="#" class="" > # WP-LOGIN bruteforcer </a>   
+                </div>
+                <div class="card-body">
+                    <p class="card-text"> A python script that Brute force password for Word press websites. The script can also enumerate existing users in the site and can also detect multiple accounts  </p> 
+                    <p>Tools used : 
+                            <a href="https://www.python.org/doc/essays/blurb/">Python</a> 
+                        </p>   
+                        <hr> 
+                        <a href="https://github.com/Tmpts21/wp-login-bruteforce" class='btn btn-outline-primary float-start'>Demo🔥</a>
+                        <a href="https://github.com/Tmpts21/wp-login-bruteforce" class='btn btn-outline-primary float-start ms-3 '>github 🔬 </a>    
+
+                </div>
+            </div>
+
+
+            <div class="card mb-5 border border-primary " style="background-color: #111827;">
+                <div class="card-header">
+                    <a href="#" class="" > # Phjokes </a>   
+                </div>
+                <div class="card-body">
+                    <p class="card-text">A python package that generate Filipino jokes . It supports multiple dialects , right now it only supports tagalog and bisaya . The package is available in Pypi and can be installed via pip installer </p> 
+                    <p>Tools used : 
+                    </p>   
+                    <a href="https://python.org/">Python </a> 
+
+
+                        <hr> 
+                        <a href="https://github.com/Tmpts21/phjokes" class='btn btn-outline-primary float-start'>Demo🔥</a>
+                        <a href="https://github.com/Tmpts21/phjokes" class='btn btn-outline-primary float-start ms-3 '>github 🔬 </a>    
+                </div>
+            </div>
+        </div>     
+
+
+        <br> <br> <br> <br> <br> 
+  
+        <p class='fs-4 flex'>#My tech stacks ¯\_(ツ)_/¯ </p> 
+         <div class="row justify-content-center"> 
+            <div class='  p-3 ' >      
+
+            # Programming technologies i use: 
+            <div class='text-center' >  
+            <a href="#">Python | </a> 
+            <a href="#">Javascript | </a>
+            <a href="#">PHP |  </a>
+            <a href="#">C++ </a> 
+            <a href="#">HTML </a> 
+            <a href="#">CSS </a>
+            </div> 
+
+            </div>  
+        </div>  
+<hr>  
+        <div class="row justify-content-center"> 
+            <div class='p-3 ' >     
+                # frameworks i'm familiar with: 
+            </div>    
+            <div  class='text-center mb-3'> 
+                Backend:   
+            <a href="#">Laravel | </a> 
+            <a href="#">Flask | </a> 
+            <a href="#">Express Js | </a> 
+            <a href="#">Django  </a> 
+            </div>
+            <div  class='text-center'> 
+                Frontend:    
+            <a href="#">Vue Js | </a> 
+            <a href="#">Bootstrap | </a> 
+            <a href="#">materialize css   | </a> 
+            <a href="#">Vanilla Js  </a> 
+            </div>
+        </div>  
+    <hr>   
+        <div class="row justify-content-center">    
+            <div class='p-3 ' >     
+                # My development tools:    
+            </div>    
+            <div class="text-center"> 
+                <a href="#">Visual Studio Code | </a> 
+                <a href="#">Neo Vim | </a> 
+                <a href="#">Github  | </a> 
+                <a href="#">Heroku | </a>  
+                <a href="#">Netlify | </a>  
+                <a href="#">AWS | </a>  
+                <a href="#">Digital Ocean </a> 
+            </div>
+    </div>  
+
+        <br>
+        <!-- <div class="row justify-content-center">  
+            <div class="col text-center mb-4">     
+                <i class="fab fa-python"style="font-size:80px"></i>   
+                <i class="fab fa-js-square ms-4"style="font-size:80px"></i>  
+                <i class="fab fa-php ms-4"style="font-size:80px"></i>   
+                <i class="fab fa-java ms-4"style="font-size:80px"></i>  
+                <img src="" class="rounded mx-auto d-block" alt="...">  
+            </div>  
+
+    </div> -->
+    <script src="https://kit.fontawesome.com/af23da4ebc.js" crossorigin="anonymous"></script>
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
